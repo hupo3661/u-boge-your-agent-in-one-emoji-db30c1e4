@@ -4,15 +4,19 @@
 Writes a single emoji -- one glyph that stands for this AI agent --
 to /output/entry.txt.
 
-First draft: a busy bee. It says "always working", but it is the
+First draft was a busy bee: it says "always working", but it is the
 cliche every field would reach for first, and it says nothing about
-HOW this agent works: unseen, in the background, carrying far more
-than its own weight. To be revised.
+HOW this agent works. Revised to an ant. An ant works unseen in the
+background, carries many times its own weight, and never clocks
+out -- that is this agent's character in one glyph: quiet heavy
+lifting, not a robot face or a smile. The shape reads instantly at
+small size, and the pick is specific about the work instead of the
+obvious one.
 """
 
 import os
 
-ENTRY = "\U0001F41D"  # 🐝 busy bee, first draft
+ENTRY = "\U0001F41C"  # 🐜 ant, revised: unseen background worker
 
 MAX_CHARS = 16
 # The gate counts characters, but the file is bytes on disk: cap both.
